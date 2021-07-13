@@ -16,15 +16,15 @@ namespace TelCo.ColorCoder
         /// <summary>
         /// Array of Major colors
         /// </summary>
-        private static Color[] colorMapMajor;
+        public static Color[] colorMapMajor;
         /// <summary>
         /// Array of minor colors
         /// </summary>
-        private static Color[] colorMapMinor;
+        public static Color[] colorMapMinor;
         /// <summary>
         /// data type defined to hold the two colors of clor pair
         /// </summary>
-        internal class ColorPair
+        public class ColorPair
         {
             internal Color majorColor;
             internal Color minorColor;
