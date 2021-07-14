@@ -21,29 +21,41 @@ namespace TelCo.ColorCoder
 		public static int GetPairNumberFromColor(ColorPair pair)
 		{
 			int majorIndex = -1;
-			for (int i = 0; i < EvenCountColorCode.colorMapMajor.Length; i++)
+			int minorIndex = -1;
+			int k1=0;
+			int k2=0;
+			for (int i = 0; i < EvenCountColorCode.colorMapMinor.Length; i++)
 			{
 				if (EvenCountColorCode.colorMapMajor[i] == pair.majorColor)
 				{
 					majorIndex = i;
-					break;
+					k1=1;
+					//break;
 				}
-			}
-			int minorIndex = -1;
-			for (int i = 0; i < EvenCountColorCode.colorMapMinor.Length; i++)
-			{
+
 				if (EvenCountColorCode.colorMapMinor[i] == pair.minorColor)
 				{
 					minorIndex = i;
+					k2=1;
+				}
+			
+				if(k1==1 && k2==1)
+				{
 					break;
 				}
+				
+				
 			}
+
+			
 			if (majorIndex == -1 || minorIndex == -1)
 			{
 				throw new ArgumentException(string.Format("Unknown Colors: {0}", pair.ToString()));
 			}
 			return (majorIndex * EvenCountColorCode.colorMapMinor.Length) + (minorIndex + 1);
-		}	}
+	
+}
+}
 }
 			
 		

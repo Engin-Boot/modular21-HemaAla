@@ -4,6 +4,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
+	//The 25-pair color code, originally known as even-count color code.
 	class EvenCountColorCode
 	{
 		public static Color[] colorMapMajor;
