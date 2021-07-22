@@ -6,6 +6,10 @@ namespace TelCo.ColorCoder
 {
 	class Testing
 	{
+		static void getManual(IManual manual)
+		{
+			manual.colorManual();
+		}
 		public static void Main(string[] args)
 		{
 		    int pairNumber = 4;

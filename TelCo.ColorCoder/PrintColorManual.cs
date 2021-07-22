@@ -5,6 +5,7 @@ namespace TelCo.ColorCoder
 {
 	class PrintColorManual
 	{
+		
 		public static void PrintManual()
 		{
 			int major_size=5;
