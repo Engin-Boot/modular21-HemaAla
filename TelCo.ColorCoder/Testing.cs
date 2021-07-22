@@ -8,7 +8,7 @@ namespace TelCo.ColorCoder
 	{
 		static void getManual(IManual manual)
 		{
-			manual.colorManual();
+			manual.ColorManual();
 		}
 		public static void Main(string[] args)
 		{

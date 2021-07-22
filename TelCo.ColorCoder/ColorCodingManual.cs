@@ -18,7 +18,7 @@ namespace TelCo.ColorCoder
                 for (int j = 0; j < EvenCountColorCode.colorMapMinor.Length; j++)
                 {
 
-                    Console.WriteLine("Colors: major{0} - minor{1}, Pair Number: {2}\n", EvenCountColorCode.colorMapMajor[i], EvenCountColorCode.colorMapMinor[j], _painum);
+                    Console.WriteLine("Colors: major{0} - minor{1}, Pair Number: {2}\n", EvenCountColorCode.colorMapMajor[i], EvenCountColorCode.colorMapMinor[j], _pairnum);
                     _pairnum++;
                 }
             }

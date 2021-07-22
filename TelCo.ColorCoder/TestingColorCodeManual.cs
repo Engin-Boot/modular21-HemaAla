@@ -15,8 +15,8 @@ namespace TelCo.ColorCoder
 		        for (int j = 0; j < EvenCountColorCode.colorMapMinor.Length; ++j)
 		        {
 		            ColorPair testPair = OperationsWithColorCode.GetColorFromPairNumber(actaul_pairnum);
-		            Debug.Assert(testPair.majorColor == Program.colorMapMajor[i]);
-		            Debug.Assert(testPair.minorColor == Program.colorMapMinor[j]);
+		            Debug.Assert(testPair.majorColor == EvenCountColorCode.colorMapMajor[i]);
+		            Debug.Assert(testPair.minorColor == EvenCountColorCode.colorMapMinor[j]);
 
 		            testPair = new ColorPair()
 		            {
