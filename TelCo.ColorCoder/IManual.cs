@@ -8,6 +8,6 @@ namespace TelCo.ColorCoder
 {
     interface IManual
     {
-        static void ColorManual(string line);
+        void ColorManual(string line);
     }
 }
