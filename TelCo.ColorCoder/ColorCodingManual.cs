@@ -6,10 +6,6 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-    interface IManual
-    {
-        void ColorManual(string line);
-    }
     class ColorCodingManual:IManual
     {
 
