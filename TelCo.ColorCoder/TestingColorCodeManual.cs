@@ -7,7 +7,7 @@ namespace TelCo.ColorCoder
 	class TestingColorCodeManual : IManual
 	{
 		
-		public static void ColorManual()
+		public  void ColorManual()
 	 	{
 		    int actaul_pairnum = 1;
 		    for (int i = 0; i < EvenCountColorCode.colorMapMajor.Length; ++i)

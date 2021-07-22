@@ -9,7 +9,7 @@ namespace TelCo.ColorCoder
     class ColorCodingManual:IManual
     {
 
-        public static void ColorManual()
+        public  void ColorManual()
         {
 
             int _pairnum = 1;
